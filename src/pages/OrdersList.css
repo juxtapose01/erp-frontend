@@ -1,0 +1,51 @@
+.orders-page {
+  background-color: #f3f6fb;
+  min-height: 100vh;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.orders-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.orders-title {
+  font-size: 1.6rem;
+  color: #f97316;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.orders-message {
+  text-align: center;
+  color: #ef4444;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 14px 16px;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.orders-table thead {
+  background-color: #f97316;
+  color: white;
+}
+
+.orders-table tbody tr:hover {
+  background-color: #fef3c7;
+}
